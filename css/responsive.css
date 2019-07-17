@@ -1,0 +1,148 @@
+@media(max-width:1199px){
+    .navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+}
+	.navbar-brand {
+		padding-left: 10px;
+	}
+	.team-content {
+		width: 100%;
+	}
+	.team-content h1{
+		font-size: 20px;
+	}
+	.team-content p {
+	    width: 90%;
+	    font-size: 14px;
+	}
+	.reader{
+		width: 10%;
+	    height: 3px;
+	    position: absolute;
+	    margin-top:10px;
+	    left: 44%;
+	}
+	.iphone img {
+		width: 100%;
+	}
+	.iphone img:last-child{
+		width: 40%;
+	}
+/*counting*/
+	.counting{
+	padding:42px 0;
+}
+	.counting-content h2 {
+    font-size: 40px;
+}
+	.counting-content h6 {
+    font-size: 15px;
+}
+}
+@media(max-width:991px){
+	.navbar-nav{
+		text-align:center;
+	}
+	.navbar-nav li .btn-custom{
+		display:none;
+	}
+	.iphone img {
+		width: 60%;
+		margin: 0 auto;
+	}
+	.iphone img:last-child{
+		width: 30%;
+		left: 250px;
+	}
+	/*counting*/
+    .counting{
+	padding:39px 0;
+}
+	.counting-content h2 {
+    font-size: 35px;
+}
+	.counting-content h6 {
+    font-size: 13px;
+}
+.card {
+	width: 60%;
+	margin: 20px auto;
+}
+.footer-content{
+	margin-top: 15px;
+}
+.testimonial_body {
+	width: 90%;
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
+}
+@media(max-width:767px){
+ /*banner start*/
+ .banner-content h1 {
+    font-size: 30px;
+}
+.iphone img {
+	width: 50%;
+	margin: 0 auto;
+}
+.iphone img:last-child{
+	width: 30%;
+	left: 190px;
+}
+.counting{
+	background-color: #ff9b1a;
+	padding:32px 0;
+}
+	.counting-content h2 {
+    font-size: 34px;
+}
+	.counting-content h6 {
+    font-size: 10px;
+}
+.card {
+	width: 80%;
+	margin: 20px auto;
+}
+.testimonial_body {
+	width: 90%;
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
+}
+@media(max-width:575px){
+.top-menu li a {
+    padding-right:10px ;
+    padding-left: 10px;
+}
+ .banner-content h1 {
+    font-size: 30px;
+}
+.iphone img {
+	width: 80%;
+	margin: 0 auto;
+}
+.iphone img:last-child{
+	width: 40%;
+	left: 90px;
+}
+.counting{
+	background-color: #ff9b1a;
+	padding:29px 0;
+}
+	.counting-content h2 {
+    font-size: 25px;
+}
+	.counting-content h6 {
+    font-size: 8px;
+}
+.card {
+	width: 100%;
+	margin: 20px auto;
+}
+.testimonial_body {
+	width: 90%;
+	margin: 0px auto;
+	margin-bottom: 10px;
+}
+}
